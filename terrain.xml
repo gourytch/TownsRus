@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<terrain>
+	<coal>
+		<name ruRU="Уголь">Coal</name>
+		<mineTurns>20</mineTurns>
+		<drop>rmcoal</drop>
+		<dropPCT>80</dropPCT>
+	</coal>
+
+	<grass>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grass>
+
+	<grass1>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grass1>
+
+	<grass2>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grass2>
+
+	<grass3>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grass3>
+
+	<grassnoflower>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grassnoflower>
+
+	<grassnoflower1>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grassnoflower1>
+
+	<grassnoflower2>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</grassnoflower2>
+
+	<floatinggrass>
+		<name ruRU="Трава">Grass</name>
+		<mineTurns>15</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>20</dropPCT>
+		<ladderItem>ladder</ladderItem>
+		<action>qtill</action>
+		<canBeFilled>true</canBeFilled>
+		<group>grassGroup</group>
+	</floatinggrass>
+
+	<jungle>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+		<action>qtilljungle</action>
+	</jungle>
+
+	<junglefrog1>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+	</junglefrog1>
+
+	<junglefrog2>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+	</junglefrog2>
+
+	<junglefrog3>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+	</junglefrog3>
+
+	<junglefrog4>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+	</junglefrog4>
+
+	<junglefrog5>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+	</junglefrog5>
+
+	<snow>
+		<name ruRU="Снег">Snow</name>
+		<mineTurns>7</mineTurns>
+		<drop>snowpile</drop>
+		<dropPCT>25</dropPCT>
+		<action>qtillsnow</action>
+	</snow>
+
+	<dirt>
+		<name ruRU="Земля">Dirt</name>
+		<mineTurns>7</mineTurns>
+		<drop>rmmud</drop>
+		<dropPCT>35</dropPCT>
+		<ladderItem>dirtladder</ladderItem>
+		<action>qtill</action>
+	</dirt>
+
+	<brownievillage>
+		<name ruRU="Джунгли">Jungle</name>
+		<mineTurns>7</mineTurns>
+		<action>qtilljungle</action>
+	</brownievillage>
+
+	<humus>
+		<name ruRU="человек на Трава">Humus on grass</name>
+		<mineTurns>0</mineTurns>
+		<action>quntillgrass</action>
+	</humus>
+
+	<junglehumus>
+		<name ruRU="человек на Джунгли">Humus on jungle</name>
+		<mineTurns>0</mineTurns>
+		<action>quntilljungle</action>
+	</junglehumus>
+
+	<sandhumus>
+		<name ruRU="человек на песке">Humus on sand</name>
+		<mineTurns>0</mineTurns>
+		<action>quntillsand</action>
+	</sandhumus>
+
+	<snowhumus>
+		<name ruRU="человек на снегу">Humus on snow</name>
+		<mineTurns>0</mineTurns>
+		<action>quntillsnow</action>
+	</snowhumus>
+
+
+	<iron>
+		<name ruRU="Железо">Iron</name>
+		<mineTurns>8</mineTurns>
+		<drop>rmiron</drop>
+		<dropPCT>80</dropPCT>
+	</iron>
+
+	<gold>
+		<name ruRU="Золото">Gold</name>
+		<mineTurns>20</mineTurns>
+		<drop>rmgold</drop>
+		<dropPCT>80</dropPCT>
+	</gold>
+
+	<silver>
+		<name ruRU="Серебро">Silver</name>
+		<mineTurns>20</mineTurns>
+		<drop>rmsilver</drop>
+		<dropPCT>80</dropPCT>
+	</silver>
+
+	<copper>
+		<name ruRU="Медь">Copper</name>
+		<mineTurns>30</mineTurns>
+		<drop>rmcopper</drop>
+		<dropPCT>80</dropPCT>
+	</copper>
+
+	<sand>
+		<name ruRU="Песок">Sand</name>
+		<mineTurns>4</mineTurns>
+		<drop>rmsand</drop>
+		<dropPCT>90</dropPCT>
+		<action>qtillsand</action>
+	</sand>
+
+	<gravel>
+		<name ruRU="Гравий">Gravel</name>
+		<mineTurns>6</mineTurns>
+		<drop>rmflint</drop>
+		<dropPCT>30</dropPCT>
+	</gravel>
+
+	<stone>
+		<name ruRU="Камень">Stone</name>
+		<mineTurns>15</mineTurns>
+		<ladderItem>stoneladder</ladderItem>
+		<drop>rmstone</drop>
+		<dropPCT>100</dropPCT>
+		<blocky>false</blocky>
+	</stone>
+
+	<densestone>
+		<name ruRU="Плотный камень">Dense stone</name>
+		<mineTurns>45</mineTurns>
+		<ladderItem>stoneladder</ladderItem>
+		<drop>rmstone</drop>
+		<dropPCT>80</dropPCT>
+	</densestone>
+
+	<dungeon3>
+		<name ruRU="подземная стена">Dungeon wall</name>
+		<mineTurns>30</mineTurns>
+		<ladderItem>stoneladder</ladderItem>
+		<drop>rmstone</drop>
+		<dropPCT>80</dropPCT>
+	</dungeon3>
+
+	<lavarock>
+		<name ruRU="скала">Rock</name>
+		<mineTurns>30</mineTurns>
+		<drop>rmstone</drop>
+		<dropPCT>80</dropPCT>
+	</lavarock>
+
+	<lavadirt>
+		<name ruRU="пустошь">Wasteland</name>
+		<mineTurns>30</mineTurns>
+		<drop>rmstone</drop>
+		<dropPCT>80</dropPCT>
+	</lavadirt>
+</terrain>

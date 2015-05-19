@@ -1,0 +1,1243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<effects>
+	<effect>
+		<id>enrage</id>
+		<name ruRU="взбешен">Enrage</name>
+		<icon>ef_enrage</icon>
+
+		<damagePCT>200</damagePCT>
+		<defensePCT>50</defensePCT>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>battlecryself</id>
+		<name ruRU="боевой клич">Battle cry</name>
+		<icon>ef_battlecry</icon>
+
+		<damagePCT>130</damagePCT>
+		<defensePCT>130</defensePCT>
+		<lasts>240</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>battlecryfriendlies</id>
+		<name ruRU="боевой клич">Battle cry</name>
+		<icon>ef_battlecry</icon>
+
+		<damagePCT>110</damagePCT>
+		<speedPCT>110</speedPCT>
+		<lasts>180</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>atkpoison</id>
+		<name ruRU="атака ядом">Poison attack</name>
+		<icon>ef_atkpoison</icon>
+
+		<onHitPCT>100</onHitPCT>
+		<onHitEffects>dotpoison200</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>dotpoison100</id>
+		<name ruRU="отравлен">Poisoned</name>
+		<icon>ef_poison</icon>
+
+		<DOT>1</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>dotpoison200</id>
+		<name ruRU="отравлен">Poisoned</name>
+		<icon>ef_poison</icon>
+
+		<DOT>2</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>confused</id>
+		<name ruRU="смущен">Confused</name>
+
+		<removeTarget>true</removeTarget>
+		<lasts>120</lasts>
+		<icon>ef_confused</icon>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>dotbleeding</id>
+		<name ruRU="кровотечение">Bleeding</name>
+		<icon>ef_bleeding</icon>
+
+		<DOT>1</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>heal</id>
+		<name ruRU="лечится">Healing</name>
+		<icon>ef_heal</icon>
+
+		<DOT>-1</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>armorheal</id>
+		<name ruRU="лечится">Healing</name>
+		<icon>ef_heal</icon>
+
+		<DOT>-1</DOT>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>freeze</id>
+		<name ruRU="замер">Frozen</name>
+		<icon>ef_freeze</icon>
+
+		<speedPCT>0</speedPCT>
+		<lasts>50</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>stun</id>
+		<name ruRU="шоковая атака">Stun attack</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>stunned,confused</onHitEffects>
+
+		<lasts>180</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>weaponstun</id>
+		<name ruRU="шоковая атака">Stun attack</name>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>stunned,confused</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>stunned</id>
+		<name ruRU="парализован">Stunned</name>
+		<icon>ef_stun</icon>
+
+		<speedPCT>0</speedPCT>
+		<attackSpeedPCT>0</attackSpeedPCT>
+		<lasts>50</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>beast</id>
+		<name ruRU="сила зверя">Power of the beast</name>
+
+		<attackPCT>130</attackPCT>
+		<damagePCT>130</damagePCT>
+		<healthPointsPCT>130</healthPointsPCT>
+		<defensePCT>25</defensePCT>
+		<graphicChange>bearhighlander</graphicChange>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>attackauraself</id>
+		<name ruRU="атака ауры">Attack aura</name>
+		<icon>ef_attackaura</icon>
+
+		<attackPCT>110</attackPCT>
+		<lasts>540</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>attackaurafriendlies</id>
+		<name ruRU="атака ауры">Attack aura</name>
+		<icon>ef_attackaura</icon>
+
+		<attackPCT>105</attackPCT>
+		<lasts>270</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>criticalshot</id>
+		<name ruRU="критическое попадание">Critical shot</name>
+		<icon>ef_criticalshot</icon>
+
+		<onRangedHitPCT>10</onRangedHitPCT>
+		<onRangedHitEffects>damage750</onRangedHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>damage100</id>
+		<name ruRU="прямое повреждение">Direct damage</name>
+
+		<DOT>100</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>damage200</id>
+		<name ruRU="прямое повреждение">Direct damage</name>
+
+		<DOT>200</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>damage750</id>
+		<name ruRU="прямое повреждение">Direct damage</name>
+
+		<DOT>1d500+500</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>convertpig</id>
+		<name ruRU="превращен в свинью">Turn into a pig</name>
+
+		<attackPCT>30</attackPCT>
+		<damagePCT>30</damagePCT>
+		<defensePCT>30</defensePCT>
+		<graphicChange>pig</graphicChange>
+		<lasts>120</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>defenseauraself</id>
+		<name ruRU="защита ауры">Defense aura</name>
+		<icon>ef_defenseaura</icon>
+
+		<defensePCT>130</defensePCT>
+		<lasts>540</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>defenseaurafriendlies</id>
+		<name ruRU="защита ауры">Defense aura</name>
+		<icon>ef_defenseaura</icon>
+
+		<defensePCT>115</defensePCT>
+		<lasts>270</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>twistedmind</id>
+		<name ruRU="поврежденный мозг">Twisted mind</name>
+		<icon>ef_twistedmind</icon>
+
+		<attackAllies>true</attackAllies>
+		<lasts>120</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>lycanthropy</id>
+		<name ruRU="оборотень">Lycanthropy</name>
+
+		<onHitPCT>1</onHitPCT>
+		<onHitEffects>lycanthropyinfected</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+	
+	<effect>
+		<id>lycanthropyenhanced</id>
+		<name ruRU="оборотень">Lycanthropy</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>lycanthropyinfected</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>lycanthropyinfected</id>
+		<name ruRU="оборотень">Lycanthropy</name>
+
+		<attackPCT>110</attackPCT>
+		<damagePCT>110</damagePCT>
+		<healthPointsPCT>110</healthPointsPCT>
+		<defensePCT>110</defensePCT>
+		<lasts>1d2880+4880</lasts>
+		<speedPCT>75</speedPCT>
+		<afterEffects>turntowolf</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>turntowolf</id>
+		<name ruRU="оборотень">Werewolf</name>
+
+		<onHitPCT>1</onHitPCT>
+		<onHitEffects>lycanthropyinfected</onHitEffects>
+
+		<attackPCT>120</attackPCT>
+		<damagePCT>120</damagePCT>
+		<healthPointsPCT>120</healthPointsPCT>
+		<defensePCT>120</defensePCT>
+		<lasts>1d360+360</lasts>
+		<attackAllies>true</attackAllies>
+		<graphicChange>werewolf</graphicChange>
+		<afterEffects>lycanthropyinfected</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>cripplingshot</id>
+		<name ruRU="деформирующее попадание">Crippling shot</name>
+
+		<onRangedHitPCT>15</onRangedHitPCT>
+		<onRangedHitEffects>slow</onRangedHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>slow</id>
+		<name ruRU="Lento">Slow</name>
+		<icon>ef_slow</icon>
+
+		<speedPCT>10</speedPCT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>damage62</id>
+		<name ruRU="прямое повреждение">Direct damage</name>
+
+		<DOT>1d25+50</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>bellyache</id>
+		<name ruRU="боль в животе">Bellyache</name>
+		<icon>ef_bellyache</icon>
+
+		<DOT>1</DOT>
+		<lasts>60</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>atkpoisonlow</id>
+		<name ruRU="атака ядом">Poison attack</name>
+		<icon>ef_atkpoison</icon>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>dotpoison100</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>flameattack</id>
+		<name ruRU="атака огнем">Flames attack</name>
+		<icon>ef_flameattack</icon>
+
+		<onHitPCT>20</onHitPCT>
+		<onHitEffects>flamesdamage200</onHitEffects>
+		<onRangedHitPCT>20</onRangedHitPCT>
+		<onRangedHitEffects>flamesdamage200</onRangedHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>flamesdamage200</id>
+		<name ruRU="горит">Burn</name>
+		<icon>ef_flamedamage</icon>
+
+		<DOT>2</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>flamesdamage100</id>
+		<name ruRU="горит">Burn</name>
+		<icon>ef_flamedamage</icon>
+
+		<DOT>1</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+	
+	<effect>
+		<id>beastmask</id>
+		<name ruRU="сила зверя">Power of the beast</name>
+
+		<attackPCT>130</attackPCT>
+		<damagePCT>130</damagePCT>
+		<healthPointsPCT>150</healthPointsPCT>
+		<speedPCT>140</speedPCT>
+		<defensePCT>25</defensePCT>
+		<graphicChange>bearhighlander</graphicChange>
+		<afterEffects>beastmaskcooldown</afterEffects>
+		<lasts>1440</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>beastmaskcooldown</id>
+		<name ruRU="устал">Tiredness</name>
+
+		<speedPCT>40</speedPCT>
+		<effectsImmune>beastmask</effectsImmune>
+		<afterEffects>beastmask</afterEffects>
+		<lasts>500</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>trickster</id>
+		<name ruRU="атака провалилась">Confusing attack</name>
+
+		<onHitPCT>10</onHitPCT>
+		<onHitEffects>confused</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>magicshield</id>
+		<name ruRU="магический щит">Magical shield</name>
+		<icon>ef_defenseaura</icon>
+
+		<defensePCT>140</defensePCT>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>plague</id>
+		<name ruRU="Plaga">Plague</name>
+
+		<onHitPCT>20</onHitPCT>
+		<onHitEffects>plagued</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+
+	<effect>
+		<id>plagued</id>
+		<name ruRU="заражен">Plagued</name>
+
+		<icon>ef_plagued</icon>
+		
+		<speedPCT>70</speedPCT>
+		<castEffects>plagued</castEffects>
+		<castCooldown>1d100</castCooldown>
+		<castTargets>ENEMY</castTargets>
+		<DOT>2</DOT>
+		<lasts>100</lasts>
+		<afterEffects>plagueresist</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>plagueresist</id>
+		<name ruRU="защита от заражения">plague resist</name>
+
+		<effectsImmune>plagued</effectsImmune>
+		<lasts>500</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>fireresist</id>
+		<name ruRU="защита от огня">Fire resist</name>
+
+		<effectsImmune>flamesdamage100,flamesdamage200</effectsImmune>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>fireaura</id>
+		<name ruRU="огненная аура">Fire aura</name>
+		<icon>ef_fireaura</icon>
+
+		<effectsImmune>flamesdamage100,flamesdamage200</effectsImmune>
+		<castEffects>flamesdamage100</castEffects>
+		<castCooldown>1d400+400</castCooldown>
+		<castTargets>ENEMY</castTargets>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>lightningattack</id>
+		<name ruRU="атака молнией">Lightning attack</name>
+
+		<onHitPCT>20</onHitPCT>
+		<onHitEffects>lightningdamage350</onHitEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>lightningdamage350</id>
+		<name ruRU="повреждение молнией">Lightning Damage</name>
+
+		<icon>ef_lightning</icon>
+		
+		<DOT>1d50+300</DOT>
+		<lasts>1</lasts>
+
+		<castEffects>lightningafter</castEffects>
+		<castCooldown>1d200</castCooldown>
+		<castTargets>ENEMY</castTargets>		
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>lightningafter</id>
+		<name ruRU="повреждение молнией">Lightning Damage</name>
+		<icon>ef_lightning</icon>
+
+		<DOT>50</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>happy</id>
+		<name ruRU="куксовое счастье">Cake happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>2d5+2</lasts>
+		<afterEffects>cakehappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>cakehappyfulfilled</id>
+		<name ruRU="кексовое переполнение">Cake fulfilled</name>
+
+		<effectsImmune>happy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>fishinghappy</id>
+		<name ruRU="рыбное счастье">Fishing happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d3</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<!-- FODO VARIETY EFFECTS -->
+
+	<effect>
+		<id>fruithappy</id>
+		<name ruRU="рыбное счастье">Fruit happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>fruithappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>fruithappyfulfilled</id>
+		<name ruRU="фруктовое счастье">Fruit fulfilled</name>
+
+		<effectsImmune>fruithappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>bakedhappy</id>
+		<name ruRU="счастье от выпечки">Baked happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>bakedhappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>bakedhappyfulfilled</id>
+		<name ruRU="переполнение от выпечки">Baked fulfilled</name>
+
+		<effectsImmune>bakedhappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>meathappy</id>
+		<name ruRU="счастье от мяса">Meat happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>meathappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>meathappyfulfilled</id>
+		<name ruRU="переполнение от мяса">Meat fulfilled</name>
+
+		<effectsImmune>meathappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>drinkhappy</id>
+		<name ruRU="счастье от выпивки">Drink happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>drinkhappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>drinkhappyfulfilled</id>
+		<name ruRU="переполнение от выпивки">Drink fulfilled</name>
+
+		<effectsImmune>drinkhappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>egghappy</id>
+		<name ruRU="Egg happy">Egg happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>egghappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>egghappyfulfilled</id>
+		<name ruRU="Egg fulfilled">Egg fulfilled</name>
+
+		<effectsImmune>egghappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>mixhappy</id>
+		<name ruRU="Mix happy">Mix happy</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d2</lasts>
+		<afterEffects>mixhappyfulfilled</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>mixhappyfulfilled</id>
+		<name ruRU="Mix fulfilled">Mix fulfilled</name>
+
+		<effectsImmune>mixhappy</effectsImmune>
+		<lasts>16400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>silverbolt</id>
+		<name ruRU="серебрянный болт">Silver bolt</name>
+
+		<onHitPCT>50</onHitPCT>
+		<onHitEffects>silverpurged</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+
+	</effect>
+
+	<effect>
+		<id>silverpurged</id>
+		<name ruRU="серебрянный очиститель">Silver purged</name>
+
+		<effectsImmune>lycanthropy,lycanthropyinfected,turntowolf</effectsImmune>
+		<lasts>400</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+
+	</effect>
+
+	<!-- Weapons damage types-->
+
+	<effect>
+		<id>blunt5</id>
+		<name ruRU="тупое повреждение">Blunt damage</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>blunted</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>blunt10</id>
+		<name ruRU="тупое повреждение">Blunt damage</name>
+
+		<onHitPCT>10</onHitPCT>
+		<onHitEffects>blunted</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>blunt15</id>
+		<name ruRU="тупое повреждение">Blunt damage</name>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>blunted</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>blunted</id>
+		<name ruRU="парализован">Stunned</name>
+		<icon>ef_stun</icon>
+
+		<speedPCT>0</speedPCT>
+		<attackSpeedPCT>0</attackSpeedPCT>
+		<lasts>15</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>pierce5</id>
+		<name ruRU="колющее повреждение">Pierce damage</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>pierced</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>pierce10</id>
+		<name ruRU="колющее повреждение">Pierce damage</name>
+
+		<onHitPCT>10</onHitPCT>
+		<onHitEffects>pierced</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>pierce15</id>
+		<name ruRU="колющее повреждение">Pierce damage</name>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>pierced</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>pierced</id>
+		<name ruRU="проколот">Pierced</name>
+
+		<DOT>1d25+200</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	
+	<effect>
+		<id>slash5</id>
+		<name ruRU="режущее повреждение">Slash damage</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>dotbleeding</onHitEffects>
+		<lasts>420</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>slash10</id>
+		<name ruRU="режущее повреждение">Slash damage</name>
+
+		<onHitPCT>10</onHitPCT>
+		<onHitEffects>dotbleeding</onHitEffects>
+		<lasts>420</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>slash15</id>
+		<name ruRU="режущее повреждение">Slash damage</name>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>dotbleeding</onHitEffects>
+		<lasts>420</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>magic5</id>
+		<name ruRU="магическое повреждение">Magic damage</name>
+
+		<onHitPCT>5</onHitPCT>
+		<onHitEffects>magicdamage</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>magic10</id>
+		<name ruRU="магическое повреждение">Magic damage</name>
+
+		<onHitPCT>10</onHitPCT>
+		<onHitEffects>magicdamage</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>magic15</id>
+		<name ruRU="магическое повреждение">Magic damage</name>
+
+		<onHitPCT>15</onHitPCT>
+		<onHitEffects>magicdamage</onHitEffects>
+		<lasts>720</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>magicdamage</id>
+		<name ruRU="магическое повреждение">Magic damage</name>
+
+		<DOT>1d25+200</DOT>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<!-- Weapons damage types-->
+
+	<!-- Damage types resistance-->
+
+	<effect>
+		<id>pierceresist</id>
+		<name ruRU="устойчивость к проколу">Pierce resist</name>
+
+		<effectsImmune>pierce5,pierce10,pierce15</effectsImmune>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>bluntresist</id>
+		<name ruRU="устойчивость к удару">Blunt resist</name>
+
+		<effectsImmune>blunt5,blunt10,blunt15</effectsImmune>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>slashresist</id>
+		<name ruRU="устойчивость к разрезу">Slash resist</name>
+
+		<effectsImmune>slash5,slash10,slash15</effectsImmune>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>magicresist</id>
+		<name ruRU="устойчивость к магии">Magic resist</name>
+
+		<effectsImmune>magic5,magic10,magic15</effectsImmune>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<!-- Damage types resistance-->
+
+	<effect>
+		<id>batskill</id>
+		<name ruRU="очарование летучей мыши">Bat charm</name>
+
+		<castEffects>bathappy</castEffects>
+		<castCooldown>1d600+400</castCooldown>
+		<castTargets>CITIZEN</castTargets>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>bathappy</id>
+		<name ruRU="очарование летучей мыши">Bat charmed</name>
+		<icon>ef_happy</icon>
+
+		<happy>1</happy>
+		<lasts>1d3</lasts>
+		<afterEffects>batcharmed</afterEffects>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>batcharmed</id>
+		<name ruRU="очарование летучей мыши">Bat charmed</name>
+
+		<effectsImmune>bathappy</effectsImmune>
+		<lasts>2880</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>dauntingscream</id>
+		<name ruRU="Daunting scream">Daunting scream</name>
+
+		<castEffects>daunted</castEffects>
+		<castTargets>CITIZEN,HERO</castTargets>
+		<castTrigger>NEAR_DEATH</castTrigger>
+  		<castCooldown>1d400+400</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>daunted</id>
+		<name ruRU="испуган">Daunted</name>
+		<removeTarget>true</removeTarget>
+		<flee>true</flee>
+		<afterEffects>dauntingresist</afterEffects>
+		<lasts>1</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>dauntingresist</id>
+		<name ruRU="устойчивость к испугу">Daunting resist</name>
+	
+		<effectsImmune>daunted</effectsImmune>
+		<lasts>1600</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>sproutexplosion</id>
+		<name ruRU="растущий взрыв">Sprout explosion</name>
+
+		<castTrigger>HITTED</castTrigger>
+		<castEffects>explosion</castEffects>
+		<castTargets>explosivesprout</castTargets>
+		<castCooldown>10</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>sproutexplosionpoison</id>
+		<name ruRU="ядовитый взрыв">Sprout explosion poison</name>
+
+		<castTrigger>HITTED</castTrigger>
+		<castEffects>dotpoison200</castEffects>
+		<castTargets>ENEMY</castTargets>
+		<castCooldown>10</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>explosion</id>
+		<name ruRU="взрыв">Sprout explosion</name>
+	
+		<lasts>15</lasts>
+		
+		<DOT>250</DOT>
+		<lasts>4</lasts>
+		<graphicChange>explosivesproutexplode</graphicChange>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>aoedamage</id>
+		<name ruRU="площадное повреждение">Aoe damage</name>
+
+		<castEffects>damage100</castEffects>
+		<castTargets>ENEMY</castTargets>
+		<castCooldown>4</castCooldown>
+		<lasts>5</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>treeprotector</id>
+		<name ruRU="защитник леса">Protector of the forest</name>
+
+		<castEffects>treeprotection</castEffects>
+		<castTargets>herbalist</castTargets>
+		<castCooldown>1d20</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>treeprotection</id>
+		<name ruRU="защитник леса">Protection of the forest</name>
+
+		<defensePCT>110</defensePCT>
+		<DOT>-1</DOT>
+		<lasts>100</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>turtleshield</id>
+		<name ruRU="щит черепахи">Shield of the turtle</name>
+
+		<castEffects>defenseauraenemies</castEffects>
+		<castTargets>ENEMY</castTargets>
+		<castCooldown>20</castCooldown>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>defenseauraenemies</id>
+		<name ruRU="защитная аура">Defense aura</name>
+		<icon>ef_defenseaura</icon>
+
+		<defensePCT>120</defensePCT>
+		<lasts>270</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>godlightning</id>
+		<name ruRU="божественная молния">Gods lightning</name>
+
+		<DOT>10000</DOT>
+		<lasts>5</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+	</effect>
+
+	<effect>
+		<id>farchants</id>
+		<name ruRU="далекая песня">Far chants</name>
+
+		<damagePCT>120</damagePCT>
+		<defensePCT>120</defensePCT>
+		<attackPCT>120</attackPCT>
+		<healthPointsPCT>120</healthPointsPCT>
+
+		<lasts>1440</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+
+	<effect>
+		<id>parrotsmell</id>
+		<name ruRU="повторяющийся запах">Parrot smell</name>
+
+		<LOSPCT>180</LOSPCT>
+
+		<lasts>1440</lasts>
+
+		<messageWhenVanish>false</messageWhenVanish>
+		<messageWhenGain>false</messageWhenGain>
+	</effect>
+</effects>
